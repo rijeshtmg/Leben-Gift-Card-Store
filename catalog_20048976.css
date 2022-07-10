@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    background-color: #efefef ;
+ 
+}
+
+navbar{
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+}
+
+store_logo[img="logo"]{
+    background-image: url('Images/logo.png');
+    background-size: contain;
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+home_links{
+    background: #ffffff;
+    position: absolute;
+    width: 33px;
+    height: 16px;
+    left: 287px;
+    top: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+home_links:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+gift_links{
+    background: #ffffff;
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    left: 350px;
+    top: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+gift_links:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+about_links{
+    background: #ffffff;
+    position: absolute;
+    width: 34px;
+    height: 16px;
+    left: 437px;
+    top: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+about_links:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+help_links{
+    background: #ffffff;
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 501px;
+    top: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+help_links:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+log_in_link{
+    background: #ffffff;
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 1147px;
+    top: 27px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+log_in_link:hover{
+    color: #888888;
+    cursor: pointer;
+}
+
+sign_up_link{
+    background: #ffffff;
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 1237px;
+    top: 22px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+sign_up_link:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+search{
+    background: #ffffff;
+    position: absolute;
+    width: 379px;
+    height: 29px;
+    left: 741px;
+    top: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7D7D7D;
+    border: 1px solid #888888;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+place_holder{
+    background: #ffffff;
+    position: absolute;
+    width: 122.12px;
+    height: 16px;
+    left: 741px;
+    top: 28px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7D7D7D;
+}
+
+
+box1{
+    position: absolute;
+    width: 1440px;
+    height: 261px;
+    left: 0px;
+    top: 70px;
+    background: #CC3940;
+}
+
+box2{
+    position: absolute;
+    width: 1440px;
+    height: 133px;
+    left: 0px;
+    top: 331px;
+    background: #2D2F41;
+}
+
+box3{
+    background-image: url("Images/amazon3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 140px;
+    top: 164px;
+    border-radius: 7px;
+}
+box4{
+    background-image: url("Images/gpay2.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 495px;
+    top: 114px;
+    border-radius: 7px;
+}
+
+box5{
+    background-image: url("Images/apple3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 1000px;
+    top: 164px;
+    border-radius: 7px;
+}
+box3:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+box4:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+box5:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+l_arrow{
+    background: #ffffff;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 30px;
+    top: 241px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    border: 1px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+l_arrow:hover{
+    color: #FFFFFF;
+    background-color: #2D2F41;
+    cursor: pointer;
+}
+
+r_arrow{
+    background: #ffffff;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1378px;
+    top: 241px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    border: 1px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+r_arrow:hover{
+    color: #FFFFFF;
+    background-color: #2D2F41;
+    cursor: pointer;
+}
+
+
+heading{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 110px;
+    top: 517px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+
+list{
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 1298px;
+    top: 520px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px;
+}
+list:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+Giftcards_List{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    height: 80%;
+    margin-bottom: 30px;
+    margin-top: 575px;
+    margin-left: 70px;
+    margin-right:140px;
+}
+
+coverImg{
+    background: #ffffff;
+    display: block;
+}
+
+Giftcard{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    margin-top: 35px;
+    margin-left: 42px;
+    padding:5px 2px 2px 2px;
+}
+
+validity,discount_voucher,description,delivery,NoOfUser{
+    background: #ffffff;
+    display: list-item;
+    margin-left: 3em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    color: #767676;
+}
+
+giftcard_name,amount,rating{
+    background: #ffffff;
+    display: block;
+    margin-left: 1.5em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+giftcard_type{
+    background: #ffffff;
+    display: list-item;
+    margin-left: 3em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    color: #767676;
+    margin-top: 10px;
+}
+    
+giftcard_name::before{
+    content: "Name of card: ";
+}
+
+giftcard_type::before{
+    content: "Type of card: ";
+}
+
+amount::before{
+    content:"Amonut in card($): ";
+}
+
+rating::before{
+    content:"Rating: "
+}
+
+validity::before{
+    content: "Validity of the card: ";
+}
+
+NoOfUser::before{
+    content: "No. of User: ";
+}
+
+description::before{
+    content: "Description of card: ";
+}
+
+discount_voucher::before{
+    content: "Discount (%): ";
+}
+
+delivery::before{
+    content: "Delivery: ";
+}
+
+coverImg[img="apple"]{
+    background-image: url("Images/apple.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 180px;
+    height: 200px;
+    margin: 0.5em 4em 0.5em 7em;
+}
+
+coverImg[img="spotify2"]{
+    background-image: url("Images/spotify2.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.5em 4em 0.5em 5em;
+}
+
+coverImg[img="gpay2"]{
+    background-image: url("Images/gpay2.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.5em 4em 0.5em 4em;
+}
+
+coverImg[img="case"]{
+    background-image: url("Images/case.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.5em 4em 0.25em 4em;
+}
+
+coverImg[img="paypal"]{
+    background-image: url("Images/paypal.webp");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 170px;
+    margin: 2em 4em 0.25em 4em;
+}
+
+coverImg[img="amazon2"]{
+    background-image: url("Images/amazon2.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.5em 4em 0.25em 7em;
+}
+
+coverImg[img="spotify"]{
+    background-image: url("Images/spotify.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.25em 4em 0.25em 7em;
+}
+
+coverImg[img="gpay"]{
+    background-image: url("Images/gpay.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 190px;
+    margin: 0.75em 4em 0.25em 5em;
+}
+
+coverImg[img="Amazon"]{
+    background-image: url("Images/Amazon.png");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 0.25em 4em 0.25em 5em;
+}
+coverImg:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about{
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 110px;
+    top: 2580px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+store_name{
+    position: absolute;
+    width: 82px;
+    height: 21px;
+    left: 110px;
+    top: 2609px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+store_type{
+    position: absolute;
+    width: 149px;
+    height: 21px;
+    left: 110px;
+    top: 2638px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+store_address{
+    position: absolute;
+    width: 235px;
+    height: 21px;
+    left: 320px;
+    top: 2609px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+store_email{
+    position: absolute;
+    width: 222px;
+    height: 21px;
+    left: 320px;
+    top: 2638px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+contact{
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    left: 642px;
+    top: 2580px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+office_phone{
+    position: absolute;
+    width: 128px;
+    height: 21px;
+    left: 641px;
+    top: 2609px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+customer_phone{
+    position: absolute;
+    width: 193px;
+    height: 21px;
+    left: 641px;
+    top: 2638px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+social{
+    position: absolute;
+    width: 92px;
+    height: 21px;
+    left: 110px;
+    top: 2675px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+line{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 2570px;
+    border: 1px solid #FFFFFF;
+}
+
+facebook_link{
+    position: absolute;
+    width: 69px;
+    height: 21px;
+    left: 110px;
+    top: 2700px;
+    bottom:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+instagram_link{
+    position: absolute;
+    width: 73px;
+    height: 21px;
+    left: 238px;
+    top: 2700px;
+    bottom:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+twitter_link{
+    position: absolute;
+    width: 47px;
+    height: 21px;
+    left: 370px;
+    top: 2700px;
+    bottom:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+
+privacy{
+    position: absolute;
+    width: 250px;
+    height: 27px;
+    left: 621px;
+    top: 2697px;
+    bottom: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+copyright{
+    position: absolute;
+    width: 262px;
+    height: 21px;
+    left: 1090px;
+    top: 2700px;
+    bottom:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #888888;
+}

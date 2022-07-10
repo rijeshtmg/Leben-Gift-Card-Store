@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_20048976.css"?>
+
+<Giftcards_Store xsi:noNamespaceSchemaLocation="catalog_20048976.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <navbar>
+        <store_logo img="logo"/>
+        <home_links>Home</home_links>
+        <gift_links>Gisftcards</gift_links>
+        <about_links>About</about_links>
+        <help_links>Help</help_links>
+        <search>Search Your Wishlist</search>
+        <log_in_link> Log In </log_in_link>
+        <sign_up_link> Sign Up </sign_up_link>
+    </navbar>
+    <advertisement>
+        <box1/>
+        <box2/>
+        <box3/>
+        <box4/>
+        <box5/>
+        <r_arrow>→</r_arrow>
+        <l_arrow>←</l_arrow>
+    </advertisement>
+    <heading>Our Available Cards</heading>
+    <list>See all ↓ </list>
+    
+    
+    <Giftcards_List>
+        <Giftcard g_id='g01'>
+            <coverImg img="apple"/>
+            <Giftcard_info>
+                <giftcard_name> Apple Pay</giftcard_name>
+                <amount> 100</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2029-03-21</validity>
+                <NoOfUser> 3</NoOfUser>
+                <discount_voucher category="VIP"> 5</discount_voucher>
+                <description> Redeem Apple Gift Cards or add money directly into your Apple Account Balance anytime.</description>
+                <delivery status="Available"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g02'>
+            <coverImg img="gpay2"/>
+            <Giftcard_info>
+                <giftcard_name> Google Pay</giftcard_name>
+                <amount> 200</amount>
+                <rating> ⭐⭐⭐</rating>
+                <giftcard_type> Online</giftcard_type>
+                <validity validityDate="AD">  2028-03-04</validity>
+                <discount_voucher category="Medium"> 2</discount_voucher>
+                <description> Google Play gift card - give the gift of games, apps and more in play store.</description>
+                 <delivery status="Available"> InterNational</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g03'>
+            <coverImg img="spotify2"/>
+            <Giftcard_info>
+                <giftcard_name> Spotify</giftcard_name>
+                <amount> 300</amount>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2024-02-10</validity>
+                <NoOfUser> 5</NoOfUser>
+                <discount_voucher category="Normal"> 1.5</discount_voucher>
+                <description> Spotify Premium lets you play the music you love on all your devices, ad-free and offline.</description>
+                <delivery status="Available"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g04'>
+            <coverImg img="case"/>
+            <Giftcard_info>
+                <giftcard_name> Case IH</giftcard_name>
+                <amount> 10</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2023-12-21</validity>
+                <NoOfUser> 2</NoOfUser>
+                <delivery status="Available"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g05'>
+            <coverImg img="paypal"/>
+            <Giftcard_info>
+                <giftcard_name> Pay Pal</giftcard_name>
+                <amount> 150</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Online</giftcard_type>
+                <validity validityDate="AD"> 2024-03-15</validity>
+                <discount_voucher category="Normal"> 1</discount_voucher>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g06'>
+            <coverImg img="amazon2"/>
+            <Giftcard_info>
+                <giftcard_name> Amazon</giftcard_name>
+                <amount> 50</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Online</giftcard_type>
+                <NoOfUser> 10</NoOfUser>
+                <discount_voucher category="Normal"> 3</discount_voucher>
+                <description> Amazon Gift Cards can only be used to purchase eligible goods and services on Amazon.</description>
+                <delivery status="Available"> Everywhere</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g07'>
+            <coverImg img="apple"/>
+            <Giftcard_info>
+                <giftcard_name> Apple Pay</giftcard_name>
+                <amount> 20</amount>
+                <rating> ⭐⭐⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <discount_voucher category="Normal"> 0.5</discount_voucher>
+                <delivery status="Unavailable"> Everywhere</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g08'>
+            <coverImg img="spotify"/>
+            <Giftcard_info>
+                <giftcard_name> Spotify</giftcard_name>
+                <amount> 30</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Online</giftcard_type>
+                <validity validityDate="AD"> 2025-04-20</validity>
+                <NoOfUser> 5</NoOfUser>
+                <discount_voucher category="Normal"> 1</discount_voucher>
+                <description> Spotify Premium lets you play the music you love on all your devices, ad-free and offline.</description>
+                <delivery status="Available"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g09'>
+            <coverImg img="gpay"/>
+            <Giftcard_info>
+                <giftcard_name> Google Pay</giftcard_name>
+                <amount> 50</amount>
+                 <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2026-07-01</validity>
+                <NoOfUser> 4</NoOfUser>
+                <discount_voucher category="VIP"> 5</discount_voucher>
+                <description> Google Play gift card - give the gift of games, apps and more in play store.</description>
+                <delivery status="Available"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g10'>
+            <coverImg img="Amazon"/>
+            <Giftcard_info>
+                <giftcard_name> Amazon</giftcard_name>
+                <amount> 1000</amount>
+                <rating> ⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2029-03-21</validity>
+                <NoOfUser> 15</NoOfUser>
+                <discount_voucher category="VIP"> 10</discount_voucher>
+                <description> Amazon Gift Cards can only be used to purchase eligible goods and services on Amazon.</description>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g11'>
+            <coverImg img="spotify"/>
+            <Giftcard_info>
+                <giftcard_name> Spotify</giftcard_name>
+                <amount> 80</amount>
+                <rating> ⭐⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2026-07-01</validity>
+                <NoOfUser> 2</NoOfUser>
+                <discount_voucher category="Normal"> 2</discount_voucher>
+                <description> Spotify Premium lets you play the music you love on all your devices, ad-free and offline.</description>
+                <delivery status="Available"> International</delivery>
+            </Giftcard_info>
+        </Giftcard>
+        <Giftcard g_id='g12'>
+            <coverImg img="paypal"/>
+            <Giftcard_info>
+                <giftcard_name> Pay Pal</giftcard_name>
+                <amount> 50</amount>
+                <rating> ⭐⭐⭐</rating>
+                <giftcard_type> Physical</giftcard_type>
+                <validity validityDate="AD"> 2025-04-23</validity>
+                <discount_voucher category="Normal"> 1.5</discount_voucher>
+                <delivery status="Unavailable"> National</delivery>
+            </Giftcard_info>
+        </Giftcard>
+    </Giftcards_List>
+    
+    <store_details>
+        <store_name>Leben Store</store_name>
+        <store_address>Location: 81 George Street London</store_address>
+        <store_phone>
+            <office_phone>Offie: 056987172</office_phone>
+            <customer_phone>Customer Care: 9800102910</customer_phone>
+        </store_phone>
+        <store_type> Online/Physical</store_type>
+        <store_email>Email: lebenstore01@gmail.com </store_email>
+    </store_details>
+    
+    <footer>
+        <line/>
+        <about>About Us:</about>
+        <contact>Contact us:</contact>
+        <social>Social Media:</social>
+        <facebook_link>Facebook</facebook_link>
+        <twitter_link>Twitter</twitter_link>
+        <instagram_link>Instagram</instagram_link>
+        <privacy>PRIVACY | POLICIES</privacy>
+        <copyright>COPYRIGHT RESERVED BY LEBEN 2022</copyright>
+    </footer>
+</Giftcards_Store>
+
+
+
+
+

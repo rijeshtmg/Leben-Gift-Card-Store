@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+
+<!-- schema declaration -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="Giftcards_Store"/>
+  <xs:complexType name="store_logoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="navbar">
+    <xs:sequence>
+      <xs:element name="store_logo"/>
+      <xs:element type="xs:string" name="home_links"/>
+      <xs:element type="xs:string" name="gift_links"/>
+      <xs:element type="xs:string" name="about_links"/>
+      <xs:element type="xs:string" name="help_links"/>
+      <xs:element type="xs:string" name="search"/>
+      <xs:element type="xs:string" name="log_in_link"/>
+      <xs:element type="xs:string" name="sign_up_link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="advertisement">
+    <xs:sequence>
+      <xs:element type="xs:string" name="box1"/>
+      <xs:element type="xs:string" name="box2"/>
+      <xs:element type="xs:string" name="box3"/>
+      <xs:element type="xs:string" name="box4"/>
+      <xs:element type="xs:string" name="box5"/>
+      <xs:element type="xs:string" name="r_arrow"/>
+      <xs:element type="xs:string" name="l_arrow"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="coverImg">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="validity">
+    <xs:simpleContent>
+      <xs:extension base="xs:date">
+        <xs:attribute type="xs:string" name="validityDate" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="discount_voucher">
+    <xs:simpleContent>
+      <xs:extension base="xs:float">
+        <xs:attribute type="xs:string" name="category" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="delivery">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="status" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="Giftcard_info">
+    <xs:sequence>
+      <xs:element type="xs:string" name="giftcard_name"/>
+      <xs:element type="xs:float" name="amount"/>
+      <xs:element type="xs:string" name="rating" minOccurs="0"/>
+      <xs:element type="xs:string" name="giftcard_type"/>
+      <xs:element type="xs:date" name="validity" minOccurs="0"/>
+      <xs:element type="xs:float" name="NoOfUser" minOccurs="0"/>
+      <xs:element name="discount_voucher" minOccurs="0"/>
+      <xs:element type="xs:string" name="description" minOccurs="0" />
+      <xs:element name="delivery" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Giftcard">
+    <xs:sequence>
+      <xs:element name="coverImg"/>
+      <xs:element name="Giftcard_info"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="g_id" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="Giftcards_List">
+    <xs:sequence>
+      <xs:element name="Giftcard" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="store_phone">
+    <xs:sequence>
+      <xs:element type="xs:string" name="office_phone"/>
+      <xs:element type="xs:string" name="customer_phone"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="store_details">
+    <xs:sequence>
+      <xs:element type="xs:string" name="store_name"/>
+      <xs:element type="xs:string" name="store_address"/>
+      <xs:element name="store_phone"/>
+      <xs:element type="xs:string" name="store_type"/>
+      <xs:element type="xs:string" name="store_email"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="footer">
+    <xs:sequence>
+      <xs:element type="xs:string" name="line"/>
+      <xs:element type="xs:string" name="about"/>
+      <xs:element type="xs:string" name="contact"/>
+      <xs:element type="xs:string" name="social"/>
+      <xs:element type="xs:string" name="facebook_link"/>
+      <xs:element type="xs:string" name="twitter_link"/>
+      <xs:element type="xs:string" name="instagram_link"/>
+      <xs:element type="xs:string" name="privacy"/>
+      <xs:element type="xs:string" name="copyright"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Giftcards_Store">
+    <xs:sequence>
+      <xs:element name="navbar"/>
+      <xs:element name="advertisement"/>
+      <xs:element type="xs:string" name="heading"/>
+      <xs:element type="xs:string" name="list"/>
+      <xs:element name="Giftcards_List"/>
+      <xs:element name="store_details"/>
+      <xs:element name="footer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
